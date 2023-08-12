@@ -13,6 +13,7 @@ class ChannelModelAdmin(admin.ModelAdmin):
     Responsibility:
     """
     list_display = (
+        'name',
         'channel',
         'description',
     )

@@ -7,13 +7,13 @@ r"""S10_const --
 # Do not change here. change at 90_local.py.
 DEBUG = True
 
-URL_SQDN = "taka16a23.com"
+URL_SQDN = ""
 
-SYSTEM_NAME = "WebApp"
+SYSTEM_NAME = "slackbot"
 
 PASSWORD_RESET_TIMELIMIT_MINUTS = 90
 
-COMPANY_NAME = "株式会社a23"
+COMPANY_NAME = ""
 
 
 

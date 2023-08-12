@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-r"""chatparam_model_admin --
+r"""post_schedule_model_admin --
 
 """
 from django.contrib import admin
 
 
-class ChatParamModelAdmin(admin.ModelAdmin):
-    r"""ChannelModelAdmin
+class PostScheduleModelAdmin(admin.ModelAdmin):
+    r"""PostScheduleModelAdmin
 
-    ChannelModelAdmin is a admin.ModelAdmin.
+    PostScheduleModelAdmin is a admin.ModelAdmin.
     Responsibility:
     """
     list_display = (
@@ -29,4 +29,4 @@ class ChatParamModelAdmin(admin.ModelAdmin):
 # Local Variables:
 # coding: utf-8
 # End:
-# chatparam_model_admin.py ends here
+# post_schedule_model_admin.py ends here

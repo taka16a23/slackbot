@@ -1,22 +1,23 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-r"""chatparam_model --
+r"""post_schedule_model --
 
 """
 from django.db import models
 from django.utils.translation import ugettext, ugettext_lazy as _
 
-from chatparam.models.channel_model import ChannelModel
+from chat.models.channel_model import ChannelModel
 
 
-class ChatParamModel(models.Model):
-    r"""ChatParamModel
+class PostScheduleModel(models.Model):
+    r"""PostScheduleModel
 
-    ChatParamModel is a models.Model.
+    PostScheduleModel is a models.Model.
     Responsibility:
     """
     channel = models.ForeignKey(
         ChannelModel,
+        verbose_name=_('Channel'),
         on_delete=models.CASCADE,
         null=False,
         blank=False,
@@ -26,7 +27,6 @@ class ChatParamModel(models.Model):
         default='',
         null=False,
         blank=True,
-        help_text=_('Message Text'),
     )
     schedule_datetime = models.DateTimeField(
         _('Schedule DateTime'),
@@ -41,12 +41,11 @@ class ChatParamModel(models.Model):
     is_send = models.BooleanField(
         _('Is Send'),
         default=False,
-        help_text=_('Has been sent'),
     )
 
     class Meta:
-        verbose_name = u'Chat Parameters'
-        verbose_name_plural = u'Chat Parameters'
+        verbose_name = _('Post Schedule')
+        verbose_name_plural = _('Post Schedule')
         ordering = ['schedule_datetime', ]
 
     def __str__(self):
@@ -58,4 +57,4 @@ class ChatParamModel(models.Model):
 # Local Variables:
 # coding: utf-8
 # End:
-# chatparam_model.py ends here
+# post_schedule_model.py ends here

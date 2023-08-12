@@ -4,13 +4,13 @@ r"""Name: __init__.py
 
 
 """
-from chatparam.models.channel_model import ChannelModel
-from chatparam.models.chatparam_model import ChatParamModel
+from chat.models.channel_model import ChannelModel
+from chat.models.post_schedule_model import PostScheduleModel
 
 
 __all__ = [
     'ChannelModel',
-    'ChatParamModel',
+    'PostScheduleModel',
 ]
 
 

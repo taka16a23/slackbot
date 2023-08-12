@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-12 11:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: chat/models/channel_model.py:17
+msgid "Name"
+msgstr "名前"
+
+#: chat/models/channel_model.py:19
+msgid "30 characters"
+msgstr "30文字"
+
+#: chat/models/channel_model.py:24 chat/models/channel_model.py:39
+#: chat/models/channel_model.py:40
+msgid "Channel"
+msgstr "チャンネル"
+
+#: chat/models/channel_model.py:26
+msgid "9 character token"
+msgstr "トークン9文字"
+
+#: chat/models/channel_model.py:31
+msgid "Description"
+msgstr "備考"
+
+#: chat/models/channel_model.py:35
+msgid "description"
+msgstr "備考"
+
+#: chat/models/post_schedule_model.py:25 chat/models/post_schedule_model.py:29
+msgid "Message Text"
+msgstr "投稿メッセージ"
+
+#: chat/models/post_schedule_model.py:32
+msgid "Schedule DateTime"
+msgstr "予約時間"
+
+#: chat/models/post_schedule_model.py:35
+msgid "Ex. 10/01/1900 01:00"
+msgstr "Ex. 2000/10/01 10:00"
+
+#: chat/models/post_schedule_model.py:38
+msgid "Deleted"
+msgstr "削除"
+
+#: chat/models/post_schedule_model.py:42
+msgid "Is Send"
+msgstr "送信済"
+
+#: chat/models/post_schedule_model.py:44
+msgid "Has been sent"
+msgstr "送信済"
+
+#: chat/models/post_schedule_model.py:48 chat/models/post_schedule_model.py:49
+msgid "Post Schedule"
+msgstr "投稿スケージュル"
+
+#: slackbot/urls.py:21
+msgid "Controll Panel"
+msgstr "コントロールパネル"
+
+#: slackbot/urls.py:22
+msgid "Slackbot"
+msgstr "Slackbot"

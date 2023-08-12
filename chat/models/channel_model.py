@@ -13,10 +13,17 @@ class ChannelModel(models.Model):
     ChannelModel is a models.Model.
     Responsibility:
     """
+    name = models.CharField(
+        _('Name'),
+        max_length=30,
+        help_text=_('30 characters'),
+        null=False,
+        default='',
+        blank=False)
     channel = models.CharField(
-        u'Channel',
+        _('Channel'),
         max_length=9,
-        help_text=u'9 length',
+        help_text=_('9 character token'),
         unique=True,
         null=False,
         blank=False)
@@ -29,11 +36,11 @@ class ChannelModel(models.Model):
     )
 
     class Meta(object):
-        verbose_name = u'Channel'
-        verbose_name_plural = u'Channel'
+        verbose_name = _('Channel')
+        verbose_name_plural = _('Channel')
 
     def __str__(self):
-        return '{0}: {1}'.format(self.channel, self.description)
+        return '{0}: {1}'.format(self.name, self.channel)
 
 
 

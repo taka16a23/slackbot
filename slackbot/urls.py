@@ -15,6 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.utils.translation import gettext, gettext_lazy as _
+
+
+admin.site.site_title = _('Controll Panel')
+admin.site.site_header = _('Slackbot')
+admin.site.index_title = ''
+admin.site.site_url = ''
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
