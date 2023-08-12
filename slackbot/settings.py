@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'ui.urls'
+ROOT_URLCONF = 'slackbot.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'ui.wsgi.application'
+WSGI_APPLICATION = 'slackbot.wsgi.application'
 
 
 # Database
