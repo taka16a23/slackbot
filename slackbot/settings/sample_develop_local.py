@@ -30,6 +30,14 @@ DATABASES = {
 # Email
 EMAIL_HOST_PASSWORD = ''
 
+# Slack Setting
+
+SLACK_POST_INTERVAL_SECONDS = 10
+
+SLACK_POST_URL = "https://slack.com/api/chat.postMessage"
+
+SLACK_OAUTH_TOKEN = ''
+
 
 if __name__ == '__main__':
     import sys
